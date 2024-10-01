@@ -1,0 +1,92 @@
+[
+  {
+    "model": "materials.course",
+    "pk": 2,
+    "fields": {
+      "name": "Физика",
+      "preview_image": "",
+      "description": "Основная наука естествознания о свойствах и строении материи, о формах её движения и изменения, об общих закономерностях явлений неорганической природы.",
+      "owner": null
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 6,
+    "fields": {
+      "name": "География",
+      "preview_image": "",
+      "description": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 7,
+    "fields": {
+      "name": "Химия",
+      "preview_image": "",
+      "description": null,
+      "owner": 5
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 2,
+    "fields": {
+      "course": 2,
+      "name": "Проводники",
+      "description": null,
+      "preview_image": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 3,
+    "fields": {
+      "course": 2,
+      "name": "Масса тела",
+      "description": "Физическая величина, определяющая инертные и гравитационные свойства тел",
+      "preview_image": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 6,
+    "fields": {
+      "course": 6,
+      "name": "Океаны",
+      "description": null,
+      "preview_image": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 7,
+    "fields": {
+      "course": null,
+      "name": "перевод",
+      "description": null,
+      "preview_image": "",
+      "video_url": null,
+      "owner": 5
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 8,
+    "fields": {
+      "course": 6,
+      "name": "Животный мир Индии",
+      "description": null,
+      "preview_image": "",
+      "video_url": null,
+      "owner": 5
+    }
+  }
+]

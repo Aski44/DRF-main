@@ -1,0 +1,86 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$b9WJpyILxnD1otq8YwykOe$obTptK29oO5HmqpgB/nC9rHWOy31ZFg0WWO2sCwcyIo=",
+      "last_login": "2024-08-17T18:53:33.633Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-08-17T18:53:11.356Z",
+      "email": "admin@example.com",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "peter",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Peter",
+      "last_name": "Petrov",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-08-17T19:05:51Z",
+      "email": "peter@student.ru",
+      "phone": null,
+      "city": "San-Francisco",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "ivan",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Ivan",
+      "last_name": "Ivanov",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-08-17T19:10:02Z",
+      "email": "ivan@student.ru",
+      "phone": null,
+      "city": "Honolulu",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "payment_date": "2024-08-17T19:09:25Z",
+      "course": 2,
+      "lesson": 2,
+      "amount": "2000.00",
+      "payment_type": "Перевод на счет"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "payment_date": "2024-08-17T19:10:33Z",
+      "course": 6,
+      "lesson": 6,
+      "amount": "3000.00",
+      "payment_type": "Перевод на счет"
+    }
+  }
+]
